@@ -1,9 +1,10 @@
 # PROGRESS · hypoparathyroidism-workbench（小钙宝 CalPal）
 
-## 更新 2026-11-14 23:35（M0 完成）
-- 当前里程碑：M0 完成 → M1 开始
-- 已完成：领取四步（issue #81 claim+claimed、私有仓、init 250 文件）；接线前置（cordis root=dshHomePath('hypoparathyroidism')、package.json dsh 块+repository）；文档九件 docs/（SPEC、DEV-REQUIREMENTS-2026-11-14、DIFF-MATRIX、PATIENT-FLOW、SCENARIOS、USER-RESEARCH、INTERACTION-DESIGN、CLINICAL-DATA、DEV-PLAN）；资料目录闸门（真实 pickDirectory+拒绝清单+/root 落盘）、患者档案闸门（subjects 表 is_demo、新建/切换接口与 UI）、试验闸门（实测 184/113 条快照 2026-11-14）
-- 实测数字：npm run check exit=0（20 ✓ / 4 SKIP 注明原因 / 0 ✗）；npm test 4/4 pass
-- 下一步：M1 三路调研（医学约束 10 主题、用户研究证据分层、家族结构对比）→ DIFF-MATRIX 一级重名率实测 ≤70% → G1 自动签认
+## 更新 2026-11-14 23:58（M1 完成）
+- 当前里程碑：M1 完成（G1 自动签认通过，待晨审追认）→ M2 开始
+- 已完成：M0 全链；M1 三路调研（十主题核数/证据分层/家族 PAGES 逐字对照）；DIFF-MATRIX 一级重名率实测 60%≤70%；SCENARIOS 10 条；IP1 交互路径全量
+- 关键文件：docs/CLINICAL-DATA.md · DIFF-MATRIX.md · USER-RESEARCH.md · SCENARIOS.md · INTERACTION-DESIGN.md · SPEC.md(v0.2) · signoffs/G1-自动签认.md
+- 实测数字：重名率 6/10=60%；试验池实测 184/113 条（快照 2026-11-14）；L1 原件未取得已声明
+- 下一步：M2 原型（两套合成档案构建器 + prototypes/v0.2 四件套 + primer 四段 + 折叠卡 + 试验四段链路 + 探针 + 独立评审 P0 清零）→ G2
 - 阻塞：无
-- 各闸口结论：无（M0 无闸口）
+- 各闸口结论：G1 自动签认通过（待晨审追认）
