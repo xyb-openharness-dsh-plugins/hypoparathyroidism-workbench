@@ -1,0 +1,6 @@
+- insert:
+    - id: hypoparathyroidism-main
+      name: "@xyb-community/hypoparathyroidism-workbench"
+      # 工作台数据根目录（DSH Desktop 按 slug 建目录），注释放条目后
+      config:
+        root: !!js dshHomePath('hypoparathyroidism')
